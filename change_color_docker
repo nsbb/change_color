@@ -3,7 +3,7 @@
 echo 'PS1="\[\e[01;95m\]\u\[\e[m\]\[\e[01;94m\]@\[\e[m\]\[\e[01;96m\]\h\[\e[m\]\[\e[01;95m\]:\[\e[m\]\[\e[01;94m\]\w\[\e[m\]\[\e[01;95m\]$\[\e[m\] "' >> ~/.bashrc
 source ~/.bashrc
 mkdir -p ~/.vim/pack/themes/opt
-cd .vim/pack/themes/opt
+cd ~/.vim/pack/themes/opt
 git clone https://github.com/dracula/vim.git dracula
 #cp ./vim/colors/dracula.vim /usr/share/vim/vim80/colors/
 echo -e "packadd! dracula\nset number\nsyntax on\ncolor dracula\nset t_Co=256" > ~/.vimrc
